@@ -1,0 +1,13 @@
+.max-tela {
+  overflow-x: auto;
+}
+.card-img-custom {
+  border-radius: 15px 15px 0px 0px;
+}
+
+.card-background {
+  width: 270px;
+  height: 420px;
+  border-radius: 15px 15px 15px 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+}
