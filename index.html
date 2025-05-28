@@ -12,22 +12,28 @@
     <title>Guardiões da Floresta</title>
   </head>
   <body>
-    <div class="container-fluid row text-center m-0 p-0">
+    <div class="container-fluid col text-center m-0 p-0">
+      <!-- MESA -->
+      <div
+        id="mesa-container"
+        class="d-flex flex-column p-0 row bg-success mesa"
+      >
+        <label class="fs-2 text-white border-bottom">Meu turno</label>
+        <div id="board" class="d-flex pt-5 pb-3">
+          <!-- <button id="add-card" class="btn btn-primary">Adicionar carta</button> -->
+        </div>
+      </div>
+
       <!-- DECK -->
-      <div class="d-flex flex-column p-0 col-4 bg-danger">
+      <div
+        class="d-flex flex-column p-0 row bg-success deck-container"
+        id="deck-container"
+      >
         <label class="fs-2 text-white border-bottom">Cartas</label>
         <div
           id="deck"
-          class="d-flex align-items-center max-tela min-vh-100"
+          class="d-flex pt-5 pb-4 pe-4 align-items-center deck"
         ></div>
-      </div>
-
-      <!-- MESA -->
-      <div class="d-flex flex-column p-0 col-8 bg-warning">
-        <label class="fs-2 text-white border-bottom">Mesa</label>
-        <div id="board">
-          <button id="add-card" class="btn btn-primary">Adicionar carta</button>
-        </div>
       </div>
     </div>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

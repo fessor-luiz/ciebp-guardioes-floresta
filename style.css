@@ -1,13 +1,30 @@
-.max-tela {
-  overflow-x: auto;
+html {
+  overflow-x: hidden;
 }
+
+#board,
+.deck {
+  min-height: 400px;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.deck,
+.board {
+  min-width: 25vh;
+}
+
 .card-img-custom {
   border-radius: 15px 15px 0px 0px;
 }
 
 .card-background {
-  width: 270px;
-  height: 420px;
+  width: 300px;
+  /* height: 420px; */
   border-radius: 15px 15px 15px 15px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+}
+
+.card-background:hover {
+  box-shadow: 0px 1px 16px rgb(255, 255, 255);
 }
