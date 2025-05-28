@@ -5,7 +5,7 @@ const cartasJogo = {
         title: "Povos Originários",
         actionPoints: 2,
         description: "Aqueles que coexistem com a natureza ao seu redor sem abusar",
-        bonus: "Manutenção e preservação da natureza",
+        bonus: "",
         rarity: "bg-dark",
         fontColor: "text-white"
     },
@@ -15,7 +15,7 @@ const cartasJogo = {
         title: "Plantar árvore",
         actionPoints: 2,
         description: "Uma árvore pode fazer a diferença!",
-        bonus: "Planta uma árvore",
+        bonus: "",
         rarity: "bg-dark",
         fontColor: "text-white"
     },
@@ -25,7 +25,7 @@ const cartasJogo = {
         title: "Caminhar ou Pedalar",
         actionPoints: 2,
         description: "Meios sustentáveis de locomoção sem poluição.",
-        bonus: "Reduz a destruição ambiental em 1 ponto.",
+        bonus: "",
         rarity: "bg-dark",
         fontColor: "text-white"
     },
@@ -35,7 +35,7 @@ const cartasJogo = {
         title: "Apagar as Luzes",
         actionPoints: 2,
         description: "Economize energia desligando o que não está em uso.",
-        bonus: "Impede o aumento da destruição neste turno.",
+        bonus: "",
         rarity: "bg-dark",
         fontColor: "text-white"
     },
@@ -45,7 +45,7 @@ const cartasJogo = {
         title: "Evitar Plásticos",
         actionPoints: 2,
         description: "Escolha reutilizáveis ao invés de descartáveis.",
-        bonus: "Bloqueia o efeito da última carta do vilão.",
+        bonus: "",
         rarity: "bg-dark",
         fontColor: "text-white"
     },
@@ -56,7 +56,7 @@ const cartasJogo = {
         title: "Reciclagem",
         actionPoints: 5,
         description: "(RE)utilizar, (RE)ciclar e (RE)duzir!",
-        bonus: "Pode repetir o bonus da próxima carta",
+        bonus: "",
         rarity: "bg-danger",
         fontColor: "text-dark"
     }, {
@@ -65,7 +65,7 @@ const cartasJogo = {
         title: "Coleta Seletiva",
         actionPoints: 5,
         description: "Separar resíduos corretamente facilita a reciclagem.",
-        bonus: "A próxima carta comum jogada dobra seu efeito.",
+        bonus: "",
         rarity: "bg-danger",
         fontColor: "text-dark"
     },
@@ -75,7 +75,7 @@ const cartasJogo = {
         title: "Economia de Água",
         actionPoints: 5,
         description: "Evitar desperdícios preserva esse recurso essencial.",
-        bonus: "A próxima carta comum custa 0 pontos de ação.",
+        bonus: "",
         rarity: "bg-danger",
         fontColor: "text-dark"
     },
@@ -85,7 +85,7 @@ const cartasJogo = {
         title: "Educação Ambiental",
         actionPoints: 5,
         description: "Conscientização para transformar atitudes e hábitos.",
-        bonus: "Permite jogar cartas comuns repetidas iguais.",
+        bonus: "",
         rarity: "bg-danger",
         fontColor: "text-dark"
     },],
@@ -95,7 +95,7 @@ const cartasJogo = {
         title: "Cultura Maker",
         actionPoints: 10,
         description: "Aprender criando, testando e botando a mão na massa.",
-        bonus: "Pode criar qualquer carta do jogo. Você receberá na próxima rodada",
+        bonus: "",
         rarity: "bg-warning"
     },
     {
@@ -104,7 +104,7 @@ const cartasJogo = {
         title: "Cultura Digital",
         actionPoints: 10,
         description: "Integração da tecnologia digital ao cotidiano social e cultural",
-        bonus: "O poder da comunicação audiovisual impede o vilão de agir por 1 turno",
+        bonus: "",
         rarity: "bg-warning"
     },
     {
@@ -113,7 +113,7 @@ const cartasJogo = {
         title: "Prototipagem",
         actionPoints: 10,
         description: "Criação e teste de objetos em formatos digitais e físicos 3D.",
-        bonus: "Cria soluções sustentáveis que fortalece a humanidade e a natureza. Todos ganham +3 no dado.",
+        bonus: "",
         rarity: "bg-warning"
     },
     {
@@ -122,7 +122,7 @@ const cartasJogo = {
         title: "Robótica",
         actionPoints: 10,
         description: "Tecnologia que automatiza tarefas e soluciona desafios humanos.",
-        bonus: "Constrói robôs ecológicos que limpam áreas poluídas. Todos ganham +1 turno",
+        bonus: "",
         rarity: "bg-warning"
     }]
 }

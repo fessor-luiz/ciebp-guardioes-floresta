@@ -28,3 +28,19 @@ html {
 .card-background:hover {
   box-shadow: 0px 1px 16px rgb(255, 255, 255);
 }
+
+.health-container {
+  width: 80vw;
+  height: 40px;
+  background-color: #444;
+  border: 2px solid #222;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.health-bar {
+  height: 100%;
+  width: 100%; /* aqui representa 70% da vida, mude conforme necessário */
+  background-color: #e60000;
+  transition: width 0.3s ease;
+}

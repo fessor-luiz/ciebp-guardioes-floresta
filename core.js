@@ -49,19 +49,13 @@ function criarCard(id) {
             const boardImgs = board.getElementsByTagName('img')
             let compareImg = element.getElementsByTagName('img')[0]
 
-
-            if (!boardImgs[0].src.endsWith('src/img/educacao-ambiental.jpg')) {
-                board.appendChild(element)
-            }
-
             for (let e = 0; e < boardImgs.length; e++) {
                 if (boardImgs[e].src === compareImg.src) {
                     alert("Você não pode jogar duas cartas iguais.")
                     return
                 }
-
-                board.appendChild(element)
             }
+            board.appendChild(element)
         }
 
     }

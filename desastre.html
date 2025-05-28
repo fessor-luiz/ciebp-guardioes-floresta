@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+    <title>Desastre</title>
+  </head>
+  <body
+    style="
+      background-image: url('src/img/Amazonia\ em\ chamas.jpg');
+      background-repeat: no-repeat;
+      background-size: 100%;
+    "
+  >
+    <div
+      class="container vh-100 d-flex flex-column justify-content-center align-items-center"
+    >
+      <p class="h1 text-dark bg-warning">Nível de desastre ambiental</p>
+      <div class="health-container">
+        <div
+          class="health-bar d-flex justify-content-center text-white fs-3 align-middle"
+          id="healthBar"
+        >
+          <p id="hp-value">100%</p>
+        </div>
+      </div>
+      <div class="container pt-5 d-flex justify-content-between">
+        <div class="d-flex text-white fs-5">
+          <button id="minus-arvores" class="btn btn-dark" style="height: 50px">
+            -
+          </button>
+          <p class="btn btn-primary" style="height: 50px" id="cont-arvores">
+            0
+          </p>
+          <button id="plus-arvores" class="btn btn-dark" style="height: 50px">
+            +
+          </button>
+          <p class="fs-3 ms-2 bg-dark">Árvores</p>
+        </div>
+        <div class="d-flex text-center text-white fs-5">
+          <button id="minus-povos" class="btn btn-dark" style="height: 50px">
+            -
+          </button>
+          <p class="btn btn-primary" style="height: 50px" id="cont-povos">0</p>
+          <button id="plus-povos" class="btn btn-dark" style="height: 50px">
+            +
+          </button>
+          <p class="fs-3 ms-2 bg-dark">Povos</p>
+        </div>
+        <div class="d-flex text-center text-white fs-5">
+          <button id="minus-acoes" class="btn btn-dark" style="height: 50px">
+            -
+          </button>
+          <p class="btn btn-primary" style="height: 50px" id="cont-acoes">0</p>
+          <button id="plus-acoes" class="btn btn-dark" style="height: 50px">
+            +
+          </button>
+          <p class="fs-3 ms-2 bg-dark">Ações</p>
+        </div>
+      </div>
+    </div>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="jogo.js"></script>
+  </body>
+</html>
